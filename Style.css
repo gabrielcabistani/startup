@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Times-New-Roman';
+    background: url("Header.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
+
+h1 {
+    font-size: 5rem;
+    font-style: italic;
+    opacity: 75%;
+    color: goldenrod;
+}
+
+hr {
+    margin: 20px auto;
+    color: mediumorchid;
+    border: 3px solid mediumorchid;
+    opacity: 0.5;
+    max-width: 100px;
+}
+
+.buffer {
+    height: 50px;
+}
+
+.btn {
+    font-weight: 400;
+    border-radius: 100px;
+}
+
+.btn-light {
+    background-color: mediumpurple;
+    border-color: mediumpurple;
+}
+
+.btn-light:hover {
+    background-color: purple;
+    border-color: purple;
+    transition: 1s;
+    border-width: 2px;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
